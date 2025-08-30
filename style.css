@@ -299,6 +299,10 @@ img {
     color: var(--color-light-text);
     max-width: none; /* Allow full width within the card */
 }
+ .ai-image {
+        display: none; /* Hide AI image on tablets for better layout */
+    }
+
 
 
 /* --- ECOSYSTEM SECTION (HIDDEN FOR NOW) --- */
@@ -437,6 +441,10 @@ img {
 
     .story__challenge, .story__solution {
         text-align: left;
+    }
+
+    .ai-image {
+        display: none; /* Hide AI image on tablets for better layout */
     }
 
     /* .ecosystem__grid {
